@@ -91,13 +91,13 @@ function App() {
 
   return (
     <div className="App">
-      <><StartPage /></>
+      <><StartPage startQuiz={startQuiz} showStart={showStart} /></>
 
 
       <><QuizPage /></>
 
 
-      <><Results /></>
+      <><Results showResult={showResult} quizzes={quizzes} marks={marks} startOver={startOver} /></>
 
     </div>
   );
