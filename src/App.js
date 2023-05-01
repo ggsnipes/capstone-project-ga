@@ -24,8 +24,9 @@ function App() {
   useEffect(() => {
     fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy")
       .then(res => res.json())
-      .then(data => setQuizzes(data))
+      .then(data => setQuizzes(data.results))
   }, [])
+
 
   // setting a question
   useEffect(() => {
@@ -94,7 +95,17 @@ function App() {
       <><StartPage startQuiz={startQuiz} showStart={showStart} /></>
 
 
-      <><QuizPage /></>
+      <><QuizPage 
+          showQuiz={showQuiz}
+          question={question}
+          quizzes={quizzes}
+          checkAnswer={checkAnswer}
+          correctAnswer={correctAnswer}
+          selectedAnswer={selectedAnswer}
+          questionIndex={questionIndex}
+          nextQuestion={nextQuestion}
+          showEndResults={showEndResults}
+      /></>
 
 
       <><Results showResult={showResult} quizzes={quizzes} marks={marks} startOver={startOver} /></>

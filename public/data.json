@@ -1,0 +1,106 @@
+[
+    {
+        "id": "01",
+        "question" : "According to the International System of Units, how many bytes are in a kilobyte of RAM",
+        "options": [
+            "512",
+            "1024",
+            "1000",
+            "500"
+        ],
+        "answer": "1000"
+    },
+    {
+        "id": "02",
+        "question" : "In web design, what does CSS stand for?",
+        "options": [
+            "Counter Strike: Source",
+            "Corrective Style Sheet",
+            "Computer Style Sheet",
+            "Cascading Style Sheet"
+        ],
+        "answer": "Cascading Style Sheet"
+    },
+    {
+        "id": "03",
+        "question" : "Linus Torvalds created Linux and Git.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "id": "04",
+        "question" : "The programming language Python is based off a modified version of Javascript",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "id": "05",
+        "question" : "What is the code name for the mobile operating system Android 7.0?",
+        "options": [
+            "Nougat",
+            "Ice Cream Sandwich",
+            "Jelly Bean",
+            "Marshmallow"
+        ],
+        "answer": "Nougat"
+    },
+    {
+        "id": "06",
+        "question" : "In most programming languages, the operator ++ is equivalent to the statement +=.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "id": "07",
+        "question" : "Which programming language would you associate Django framework with?",
+        "options": [
+            "C++",
+            "Python",
+            "C#",
+            "Java"
+        ],
+        "answer": "Python"
+    },
+    {
+        "id": "08",
+        "question" : "How long is an IPv6 Address?",
+        "options": [
+            "32 bits",
+            "64 bits",
+            "128 bytes",
+            "128 bits"
+        ],
+        "answer": "128 bits"
+    },
+    {
+        "id": "09",
+        "question" : "What is a state in React?",
+        "options": [
+            "A permanent storage.",
+            "Internal storage of the component.",
+            "External storage of the component.",
+            "None of the above."
+        ],
+        "answer": "Internal storage of the component."
+    },
+    {
+        "id": "10",
+        "question" : "What are the two ways to handle data in React?",
+        "options": [
+            "State & Props",
+            "Services & Components",
+            "State & Services",
+            "State & Component"
+        ],
+        "answer": "State & Props"
+    }
+]

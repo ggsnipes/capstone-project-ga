@@ -1,11 +1,11 @@
-export default function StartPage() {
+export default function StartPage({ startQuiz, showStart }) {
     return (
-        <section>
+        <section style={{display: `${showStart ? 'block' : 'none'}`}}>
             <div className="container">
                 <div>
                     <div className="column">
                         <h1>basic comp sci quiz</h1>
-                        <button>start quiz</button>
+                        <button onClick={startQuiz}>start quiz</button>
                     </div>
                 </div>
             </div>
