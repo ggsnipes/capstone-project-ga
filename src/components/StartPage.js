@@ -1,7 +1,9 @@
+import './Main.css'
+
 export default function StartPage({ startQuiz, showStart }) {
     return (
         <section style={{display: `${showStart ? 'block' : 'none'}`}}>
-            <div className="container">
+            <div className="start-container">
                 <div>
                     <div className="column">
                         <h1>basic comp sci quiz</h1>

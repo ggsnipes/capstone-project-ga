@@ -1,7 +1,9 @@
+import './Main.css'
+
 export default function QuizPage({ showQuiz, question, quizzes, checkAnswer, correctAnswer, selectedAnswer, questionIndex, nextQuestion, showEndResults}) {
     return (
         <section>
-            <div className="container">
+            <div className="quiz-container">
                 <div>
                     <h5>{question.question}</h5>
                     <h5>{quizzes.indexOf(question) + 1} / {quizzes?.length}</h5>
