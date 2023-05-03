@@ -83,7 +83,9 @@ function App() {
     setSelectedAnswer('')
     setQuestionIndex(0)
     setMarks(0)
-
+    fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy")
+      .then(res => res.json())
+      .then(data => setQuizzes(data.results))
 
   }
 
