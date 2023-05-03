@@ -2,14 +2,14 @@ import './Main.css'
 
 export default function QuizPage({ showQuiz, question, quizzes, checkAnswer, correctAnswer, selectedAnswer, questionIndex, nextQuestion, showEndResults}) {
     return (
-        <section>
+        <section style={{display: `${showQuiz ? 'block' : 'none'}`}}>
             <div className="quiz-container">
                 <div>
                     <h5>{question.question}</h5>
                     <h5>{quizzes.indexOf(question) + 1} / {quizzes?.length}</h5>
                 </div>
 
-                <div>
+                <div className='quiz-buttons'>
                     {
                         question?.incorrect_answers?.map((item, index) => 
                         <button
